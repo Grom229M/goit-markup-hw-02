@@ -2,12 +2,14 @@
   --color-text: #434455;
   --color-title: #2e2f42;
   --color-logo: #4d5ae5;
+  --color-text-p: #f4f4fd;
+  --body-bg: #ffffff;
 }
 
 body {
   font-family: "Roboto" sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--color-text);
+  background-color: var(--body-bg);
 }
 
 h1 {
@@ -15,11 +17,11 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  background-color: #2e2f42;
 }
 
 .header-list {
@@ -129,6 +131,13 @@ span {
   text-align: center;
   text-transform: capitalize;
 }
+.team-title {
+  background: #f4f4fd;
+}
+
+team-list {
+  color: #ffffff;
+}
 
 .team-title-second {
   font-style: normal;
@@ -149,6 +158,21 @@ span {
   color: #434455;
   text-align: center;
 }
+
+.footer {
+  background-color: #2e2f42;
+}
+.logo-footer {
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+.span-footer {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-family: "Roboto";
   font-style: normal;
@@ -156,6 +180,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-text-p);
 }
 
 p {
