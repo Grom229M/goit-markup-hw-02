@@ -1,13 +1,17 @@
 :root {
   --color-text: #434455;
   --color-title: #2e2f42;
+  --color-logo: #4d5ae5;
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 h1 {
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -15,7 +19,16 @@ h1 {
   text-align: center;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #9e8e8e;
+  color: #ffffff;
+}
+
+.header-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
 }
 
 .header-item {
@@ -25,6 +38,23 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.link-address {
+  color: #434455;
+}
+
+.link-address:hover,
+:focus {
+  color: #404bbf;
 }
 
 .header-item-address {
@@ -44,28 +74,31 @@ button {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-
+  cursor: pointer;
   color: #ffffff;
 }
 
 button:hover {
-  background-color: rgb(56, 0, 111);
+  background-color: #404bbf;
 }
 button:focus {
-  background-color: rgb(56, 0, 111);
+  background-color: #404bbf;
 }
 
 .logo-header,
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+  text-decoration: none;
 }
 span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .skills-title {
   font-style: normal;
