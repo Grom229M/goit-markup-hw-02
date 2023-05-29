@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-text);
   background-color: var(--body-bg);
 }
@@ -17,11 +17,19 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   background-color: #2e2f42;
+}
+
+.hero {
+  background-color: var(--color-title);
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .header-list {
@@ -70,6 +78,7 @@ h1 {
 
 button {
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -87,8 +96,7 @@ button:focus {
   background-color: #404bbf;
 }
 
-.logo-header,
-.logo-footer {
+.logo-header {
   font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -102,6 +110,7 @@ button:focus {
 span {
   color: #2e2f42;
 }
+
 .skills-title {
   font-style: normal;
   font-weight: 500;
@@ -135,7 +144,11 @@ span {
   background: #f4f4fd;
 }
 
-team-list {
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-list {
   color: #ffffff;
 }
 
@@ -163,9 +176,14 @@ team-list {
   background-color: #2e2f42;
 }
 .logo-footer {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  color: var(--color-logo);
   text-decoration: none;
 }
 
@@ -193,25 +211,39 @@ h3 {
 }
 
 .pg2-button {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--color-logo);
+  background-color: var(--color-text-p);
+  cursor: pointer;
 }
 .pg2-button:hover {
   background: #404bbf;
   color: #ffffff;
 }
 
+.list-button {
+  list-style: none;
+}
+
 .pg2-button:focus {
   background: #404bbf;
   color: #ffffff;
+}
+
+.link-porfolio {
+  text-decoration: none;
+}
+
+.list-portfolio {
+  list-style: none;
 }
 .portfolio-title-pg2 {
   font-family: "Roboto";
@@ -220,4 +252,5 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-title);
 }
