@@ -24,6 +24,10 @@ h1 {
   background-color: #2e2f42;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .hero {
   background-color: var(--color-title);
 }
