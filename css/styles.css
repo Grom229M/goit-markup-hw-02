@@ -148,8 +148,13 @@ span {
   background-color: #ffffff;
 }
 
-.team-list {
+.team,
+.list {
   color: #ffffff;
+}
+
+.list {
+  list-style: none;
 }
 
 .team-title-second {
@@ -175,7 +180,8 @@ span {
 .footer {
   background-color: #2e2f42;
 }
-.logo-footer {
+.footer,
+.link {
   font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
