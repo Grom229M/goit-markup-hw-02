@@ -213,10 +213,14 @@ p {
 
 h2,
 h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-title);
 }
 
-.pg2-button {
+.pg-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
